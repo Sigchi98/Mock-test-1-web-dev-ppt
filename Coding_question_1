@@ -1,0 +1,40 @@
+CSS positions:
+a. Static:
+The static position is the default position for HTML elements. It follows the normal flow of the document and doesn't require any additional positioning properties
+Example: 
+.static-example {
+  position: static;
+}
+b. Fixed:
+The fixed position is used to position an element relative to the browser window. The element stays fixed even when the page is scrolled.
+Example:
+.fixed-example {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+c. Sticky:
+The sticky position behaves like a combination of relative and fixed. It remains in the document flow until a certain scroll threshold is reached, then it becomes fixed.
+Example:
+.sticky-example {
+  position: sticky;
+  top: 10px;
+}
+d. Relative:
+The relative position positions an element relative to its normal position. It allows you to modify the element's position using properties like top, right, bottom, and left.
+Example:
+.relative-example {
+  position: relative;
+  top: 10px;
+  left: 20px;
+}
+e. bsolute:
+The absolute position positions an element relative to its nearest positioned ancestor or to the initial containing block if no positioned ancestor is found.
+Example:
+.absolute-example {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+We can modify the values of the positioning properties (e.g., top, right, bottom, left) to achieve the desired layout for your elements.
