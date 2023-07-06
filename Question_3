@@ -1,0 +1,6 @@
+Execution context is a special environment created by the JavaScript engine to handle the transformation and execution of JavaScript code. It contains the code that's currently running, and everything that aids in its execution. During the Execution Context run-time, the specific code gets parsed by a parser, the variables and functions are stored in memory, executable byte-code gets generated, and the code gets executed.
+There are two kinds of Execution Context in JavaScript: Global Execution Context (GEC) and Function Execution Context (FEC). The GEC is the base/default Execution Context where all JavaScript code that is not inside of a function gets executed. The FEC is created whenever a function is called, representing the function's local scope.
+Diagram:
+https://miro.medium.com/max/1400/1*jkMVh2gb-33THJEkgBObdA.png
+
+as diagram couldn't be pasted here, please visit the above link for diagramatical explaination.
